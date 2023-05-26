@@ -1,0 +1,19 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+#root {
+  --primary : #3CB136;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, -apple-system, ui-sans-serif, system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
